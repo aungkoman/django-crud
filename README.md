@@ -79,3 +79,32 @@ http://127.0.0.1:8000/money/
 
 /money  ထည့်ဖို့ မမေ့နဲ့။
 
+up and running တက်လာပြီ။
+
+
+## Data Structure for our Money App
+
+Model ဘယ်(၂) ခုလိုမလဲ?
+
+- [ ] TranscationCategory
+- [ ] Transcation
+
+### Transaction Category မှာ ဘာတွေပါမလဲ?
+
+name ပဲ​ပါမယ်။
+
+### Transaction မှာ ဘာပါမလဲ?
+
+- [ ] ဝင်ငွေလား / ထွက်ငွေလား မှတ်ဖို့ bool တစ်ခု -> income | bool
+- [ ] အကြောင်းအရာ -> description | String
+- [ ] ငွေပမာဏ -> amount | double
+- [ ] မုန့်ဖိုးရတာလား / မုန့်ဝယ်စားတာလား မှတ်ဖို့ -> TransactionCategory
+- [ ] ရက်စွဲ -> created_date
+
+ဆိုတော့က ာ App Folder ထဲက models.py ကို ပြင်မယ်။
+
+```python
+
+
+```
+
