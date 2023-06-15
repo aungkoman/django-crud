@@ -9,3 +9,11 @@
 - [ ] ဝင်ငွေ ထွက်ငွေ မှတ်တမ်းများ
 
 
+## Command Logs
+```bash
+# create project
+django-admin startproject finance
+# change directory to project folder
+cd finance
+# create app
+python manage.py startapp money
