@@ -1,0 +1,5 @@
+
+finance/finance/__pycache__/*
+finance/money/__pycache__/__init__.cpython-311.pyc
+finance/money/__pycache__/urls.cpython-311.pyc
+finance/money/__pycache__/views.cpython-311.pyc

@@ -67,4 +67,15 @@ urlpatterns = [
 
 money/ နဲ့ လာရင် money folder ထဲက urls.py ကို ယူသုံးပါပေါ့။
 
+- [ ] hello world ပေါ်လား စမ်းကြည့်ဖို့ အောက်က command run
+
+```bash
+python manage.py runserver
+```
+
+ပေါ်လာတဲ့ url ကို ဝင်ကြည့်။
+
+http://127.0.0.1:8000/money/
+
+/money  ထည့်ဖို့ မမေ့နဲ့။
 
