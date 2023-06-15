@@ -50,3 +50,21 @@ urlpatterns = [
     path("", views.index, name="index"),
 ]
 ```
+
+BTW, ref က https://docs.djangoproject.com/en/4.2/intro/tutorial01/
+
+- [ ] Project Folder ထဲက urls.py မှာ ကိုယ့် app ရဲ့ urls.py သွားထည့်
+
+```python
+from django.contrib import admin
+from django.urls import include, path
+
+urlpatterns = [
+    path("money/", include("money.urls")),
+    path("admin/", admin.site.urls),
+]
+```
+
+money/ နဲ့ လာရင် money folder ထဲက urls.py ကို ယူသုံးပါပေါ့။
+
+
