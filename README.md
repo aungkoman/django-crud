@@ -17,3 +17,19 @@ django-admin startproject finance
 cd finance
 # create app
 python manage.py startapp money
+```
+
+
+## Steps
+
+- [ ] Project Create လုပ်မယ်။
+- [ ] Create လုပ်ထားတဲ့ Project ထဲမှာ App တစ်ခုထည့်မယ်။
+- [ ] View တစ်ခုရေးမယ်။​ (Hello World)
+
+### Hello World ရေးမယ်။
+
+- [ ] app folder ထဲမှာ views.py ဖိုင်ကိုဖွင့်ပြီး method တစ်ခုရေး။
+
+```python
+
+```
