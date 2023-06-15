@@ -31,5 +31,22 @@ python manage.py startapp money
 - [ ] app folder ထဲမှာ views.py ဖိုင်ကိုဖွင့်ပြီး method တစ်ခုရေး။
 
 ```python
+from django.shortcuts import render
+from django.http import HttpResponse
 
+
+def index(request):
+    return HttpResponse("Hello, world. You're at the money app -> index method")
+```
+
+- [ ] app folder ထဲမှာ urls.py ဖိုင် create လုပ်ပြီး url array တစ်ခုရေး။
+
+```python
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path("", views.index, name="index"),
+]
 ```
