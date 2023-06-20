@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "familytree.apps.FamilytreeConfig",
     "money.apps.MoneyConfig",
     'django.contrib.admin',
     'django.contrib.auth',

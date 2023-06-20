@@ -1,5 +1,10 @@
 # Django CRUD Module
 
+
+## Family Tree
+
+python manage.py startapp familytree
+
 ငွေသုံးစာရင်းကို Django နဲ့ ရေးမယ်။
 
 ## Features
