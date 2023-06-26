@@ -1,4 +1,14 @@
-<h1>Hello</h1>
+<h2>Person List</h2>
+<ul>
+
+    {% for person in person_obj_list %}
+            <li>
+                <a href="/person-detail/{{ person.id }}/">{{ person.name }}</a>
+            </li>
+    {% endfor %}
+
+</ul>
+
 <h2>{{ title }} </h2>
 <ul>
     <!-- python ဘက်က pass ပေးလိုက်တဲ့ SET ထဲက person_list ကို ယူမယ်။​ သူက String List ဆိုတော့ Loop ပတ်မယ် -->
@@ -7,4 +17,11 @@
                 <a href="/person-detail/{{ forloop.counter }}/">{{ person }}</a>
             </li>
     {% endfor %}
+
+    {% for person in person_obj_list %}
+            <li>
+                <a href="/person-detail/{{ forloop.counter }}/">{{ person.name }}</a>
+            </li>
+    {% endfor %}
+
 </ul>
