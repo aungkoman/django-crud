@@ -21,4 +21,20 @@
         <td>Mother</td>
         <td>{{ person.parent_marriage.person_two.name }} </td>
     </tr>
+    <tr>
+        <td>Grand Father</td>
+        <td>{{ person.parent_marriage.person_one.parent_marriage.person_one.name }} </td>
+    </tr>
+    <tr>
+        <td>Grand Mother</td>
+        <td>{{ person.parent_marriage.person_one.parent_marriage.person_two.name }} </td>
+    </tr>
+    <tr>
+        <td>Grand Father</td>
+        <td>{{ person.parent_marriage.person_two.parent_marriage.person_one.name }} </td>
+    </tr>
+    <tr>
+        <td>Grand Mother</td>
+        <td>{{ person.parent_marriage.person_two.parent_marriage.person_two.name }} </td>
+    </tr>
 </table>
