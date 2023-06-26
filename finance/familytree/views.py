@@ -10,3 +10,9 @@ def helloWorld(request):
     person_list = ['Aung Aung', 'Ma Ma', 'Mg Mg']
     # ဖိုင်နာမည်နောက်မှာ Set တစ်ခု အနေနဲ့ ထည့်ပေး
     return render(request, 'hello_world.html', {'person_list': person_list, 'title' : 'Person List' } )
+
+def personDetail(request, person_id = 0):
+    data = {
+        'person_id' : person_id
+    }
+    return render(request, 'person_detail.html', { 'person_id' : person_id})
