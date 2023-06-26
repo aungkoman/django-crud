@@ -1,5 +1,15 @@
 # Django CRUD Module
 
+## Requirement
+
+Browser မှာ /personal-file လို့ ရိုက်ထည့်လိုက်ရင်
+
+လူတစ်ယောက်ရဲ့ ကိုယ်ရေးအချက်အလက် ပြပေးရမယ်။
+
+HTML Heading , Table သုံးပြီး။
+
+
+
 
 ## Family Tree
 
