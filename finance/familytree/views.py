@@ -4,6 +4,15 @@ from django.http import HttpResponse
 # import models
 from familytree.models import Person,Married
 
+def myHtml(request):
+    return render(request,'test.html')
+    # return HttpResponse("Hello World")
+
+# function declaration
+def testFunc(request):
+    return HttpResponse("Hello TEST")
+
+
 def index(request):
     return HttpResponse("Hello, world. You're at the family tree app -> index method")
 
