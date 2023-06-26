@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # import models
-from familytree.models import Person
+from familytree.models import Person,Married
 
 def index(request):
     return HttpResponse("Hello, world. You're at the family tree app -> index method")
@@ -16,5 +16,4 @@ def helloWorld(request):
 
 def personDetail(request, person_id = 0):
     person = Person.objects.get(pk=person_id)
-
     return render(request, 'person_detail.html', { 'person_id' : person_id, 'person' : person})

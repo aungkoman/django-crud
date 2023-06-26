@@ -13,4 +13,12 @@
         <td>DOB</td>
         <td>{{ person.dob }} </td>
     </tr>
+    <tr>
+        <td>Father</td>
+        <td>{{ person.parent_marriage.person_one.name }} </td>
+    </tr>
+    <tr>
+        <td>Mother</td>
+        <td>{{ person.parent_marriage.person_two.name }} </td>
+    </tr>
 </table>
