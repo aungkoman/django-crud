@@ -15,7 +15,6 @@ def helloWorld(request):
     return render(request, 'hello_world.html', {'person_list': person_list, 'title' : 'Person List', 'person_obj_list' : person_obj_list } )
 
 def personDetail(request, person_id = 0):
-    data = {
-        'person_id' : person_id
-    }
-    return render(request, 'person_detail.html', { 'person_id' : person_id})
+    person = Person.objects.get(pk=person_id)
+
+    return render(request, 'person_detail.html', { 'person_id' : person_id, 'person' : person})

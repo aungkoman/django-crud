@@ -1,1 +1,16 @@
-<h2>Person Detail {{ person_id }}</h2>
+<h2>{{ person.name }}'s Person Detail</h2>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>{{ person.name }} </td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>{{ person.gender.name }} </td>
+    </tr>
+    <tr>
+        <td>DOB</td>
+        <td>{{ person.dob }} </td>
+    </tr>
+</table>
