@@ -4,6 +4,11 @@ from django.http import HttpResponse
 # import models
 from familytree.models import Person,Married
 
+def greeting(request):
+    name = "Cisco Ramon"
+    gender = "male"
+    return render(request, 'greeting.html', {"name" : name, "gender" : gender} )
+
 def myHtml(request):
     return render(request,'test.html')
     # return HttpResponse("Hello World")
@@ -26,3 +31,15 @@ def helloWorld(request):
 def personDetail(request, person_id = 0):
     person = Person.objects.get(pk=person_id)
     return render(request, 'person_detail.html', { 'person_id' : person_id, 'person' : person})
+
+
+    """
+    marks = [1,2,3] # List
+    print(marks[1]) # 2
+    # dictionary
+    person = {
+        'name' : 'Mg Mg',
+        'age' : 14
+    }
+    print(person['name']) # Mg Mg
+    """
