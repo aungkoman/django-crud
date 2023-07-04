@@ -69,6 +69,32 @@
             text-decoration: none;
             color: brown;
         }
+
+        div.profile-detail{
+            background-color: teal;
+            padding: 24px;
+            display: flex;
+        }
+
+        div.profile-picture{
+            flex: 1;
+            background-color: blue;
+        }
+        div.profile-picture img{
+            width: 100%;
+        }
+
+        div.personal-file{
+            flex: 3;
+            background-color: red;
+        }
+
+        div.biography{
+            background-color: blanchedalmond;
+            padding: 24px;
+            margin-top: 16px;
+        }
+        
     </style>
 </head>
 <body>
@@ -87,7 +113,20 @@
             <div class="inactive-title"><a href="#">Service</a></div>
             <div class="login-button"><a href="#">Login to Profile</a></div>
         </div>
-        <div class="profile"></div>
+        <div class="profile">
+            <div class="profile-detail">
+                <div class="profile-picture">
+                    <img src="https://image.lexica.art/full_jpg/7515495b-982d-44d2-9931-5a8bbbf27532" />
+                </div>
+                <div class="personal-file">
+                    <div>Vice Dean, Research</div>
+                    <div>Chair, Department of Medicine</div>
+                    <div>Adjunct Community Assistanct Professor, Depatment of Medicine</div>
+                    <div>Research Assistant Professor, Department of Anesthesiology</div>
+                </div>
+            </div>
+            <div class="biography"></div>
+        </div>
     </div>
 </body>
 </html>
