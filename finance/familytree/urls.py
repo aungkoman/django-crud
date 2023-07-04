@@ -9,5 +9,6 @@ urlpatterns = [
     path("person-detail/<int:person_id>/", views.personDetail, name="person-detail"),
     path("test/",views.testFunc),
     path("html/", views.myHtml),
-    path("greeting/", views.greeting)
+    path("greeting/", views.greeting),
+    path("our-persons/", views.our_person_list)
 ]

@@ -6,8 +6,29 @@
     <title>Greeting</title>
 </head>
 <body>
+    <h2>your are {{ age }} years old</h2>
+
+    {% if age >= 18 %}
+        <p>You can Vote</p>
+    {% else %}
+        <p>You can't Vote</p>
+    {% endif %}
+
+    <hr>
+    
     <h2>Good Evening {{ name }}</h2>
     <p>your are {{ gender }} </p>
+
+    <h2>Your Marks</h2>
+    {{ marks }}
+        {% for x in marks %}
+            <li>{{ x }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Your name is {{ personal_file.name }}</h2>
+    <p>Age is {{ personal_file.age }}</p>
+    <p>Address is {{ personal_file.address }}</p>
     
 </body>
 </html>

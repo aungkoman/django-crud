@@ -1,13 +1,37 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Person
 
 # import models
 from familytree.models import Person,Married
 
+def our_person_list(request):
+    # get persons from database
+    person_list = Person.objects.all()
+    return render(request, 'our_person_list.html', { "person_list" : person_list })
+
 def greeting(request):
+    # variables
     name = "Cisco Ramon"
     gender = "male"
-    return render(request, 'greeting.html', {"name" : name, "gender" : gender} )
+    # list
+    marks = [55, 45, 78]
+    # dictionary
+    personal_file = {
+        "name" : "Cisco",
+        "age" : 45,
+        "address" : "Mandalay"
+    }
+    age = 13
+    return render(request, 'greeting.html', 
+        {
+            "name" : name, 
+            "gender" : gender,
+            "marks" : marks,
+            "personal_file" : personal_file,
+            'age' : age
+        } 
+    )
 
 def myHtml(request):
     return render(request,'test.html')
