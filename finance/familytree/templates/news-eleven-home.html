@@ -40,11 +40,10 @@
             margin: 8px;
             background-color: teal;
             color: white;
-            
         }
 
         section.head-line-left{
-            background-color: black;
+            background-color: gold;
             padding: 24px;
             margin: 8px;
             flex: 1;
@@ -55,6 +54,37 @@
             padding: 24px;
             margin: 8px;
             flex: 1;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        article.news-thumbnail{
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+        }
+
+        img.news-thumbnail{
+            width: 100%;
+        }
+
+        span.news-category{
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 0px;
+        }
+        span.news-title{
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* number of lines to show */
+                    line-clamp: 3; 
+            -webkit-box-orient: vertical;
+            font-size: 12px;
+        }
+        span.published-date{
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 0px;
         }
     </style>
 </head>
@@ -80,10 +110,38 @@
         </nav>
         <section class="head-line-news">
             <section class="head-line-left">
-
+                <article class="news-thumbnail">
+                    <img class="news-thumbnail" src="https://news-eleven.com/sites/news-eleven.com/files/styles/frontpage_nodequeue/public/news-images/1_1659.jpg" />
+                    <span class="news-category">NEWS</span>
+                    <span class="news-title">ကမ္ဘာ့သတင်းစာများနှင့် သတင်းထုတ်ဝေသူများအဖွဲ့(WAN-IFRA) ၏ ၇၄ ကြိမ်မြောက် ကမ္ဘာ့ သတင်းမီဒီယာညီလာခံ ထိုင်ဝမ်တွင်ကျင်းပ ■ Eleven Media Group အမှုဆောင်ဒါရိုက်တာ ကိုမင်းသော်ထွဋ် နှင့် The Daily Eleven သတင်းစာ အယ်ဒီတာချုပ် ကိုကျော်ဇောလင်းတို့ တက်ရောက်</span>
+                    <span class="published-date">28 JUNE 2023</span>
+                </article>
             </section>
             <section class="head-line-right">
-
+                <article class="news-thumbnail">
+                    <img class="news-thumbnail" src="https://news-eleven.com/sites/news-eleven.com/files/styles/frontpage_nodequeue/public/news-images/1_1659.jpg" />
+                    <span class="news-category">NEWS</span>
+                    <span class="news-title">ကမ္ဘာ့သတင်းစာများနှင့် သတင်းထုတ်ဝေသူများအဖွဲ့(WAN-IFRA) ၏ ၇၄ ကြိမ်မြောက် ကမ္ဘာ့ သတင်းမီဒီယာညီလာခံ ထိုင်ဝမ်တွင်ကျင်းပ ■ Eleven Media Group အမှုဆောင်ဒါရိုက်တာ ကိုမင်းသော်ထွဋ် နှင့် The Daily Eleven သတင်းစာ အယ်ဒီတာချုပ် ကိုကျော်ဇောလင်းတို့ တက်ရောက်</span>
+                    <span class="published-date">28 JUNE 2023</span>
+                </article>
+                <article class="news-thumbnail">
+                    <img class="news-thumbnail" src="https://news-eleven.com/sites/news-eleven.com/files/styles/frontpage_nodequeue/public/news-images/1_1659.jpg" />
+                    <span class="news-category">NEWS</span>
+                    <span class="news-title">ကမ္ဘာ့သတင်းစာများနှင့် သတင်းထုတ်ဝေသူများအဖွဲ့(WAN-IFRA) ၏ ၇၄ ကြိမ်မြောက် ကမ္ဘာ့ သတင်းမီဒီယာညီလာခံ ထိုင်ဝမ်တွင်ကျင်းပ ■ Eleven Media Group အမှုဆောင်ဒါရိုက်တာ ကိုမင်းသော်ထွဋ် နှင့် The Daily Eleven သတင်းစာ အယ်ဒီတာချုပ် ကိုကျော်ဇောလင်းတို့ တက်ရောက်</span>
+                    <span class="published-date">28 JUNE 2023</span>
+                </article>
+                <article class="news-thumbnail">
+                    <img class="news-thumbnail" src="https://news-eleven.com/sites/news-eleven.com/files/styles/frontpage_nodequeue/public/news-images/1_1659.jpg" />
+                    <span class="news-category">NEWS</span>
+                    <span class="news-title">ကမ္ဘာ့သတင်းစာများနှင့် သတင်းထုတ်ဝေသူများအဖွဲ့(WAN-IFRA) ၏ ၇၄ ကြိမ်မြောက် ကမ္ဘာ့ သတင်းမီဒီယာညီလာခံ ထိုင်ဝမ်တွင်ကျင်းပ ■ Eleven Media Group အမှုဆောင်ဒါရိုက်တာ ကိုမင်းသော်ထွဋ် နှင့် The Daily Eleven သတင်းစာ အယ်ဒီတာချုပ် ကိုကျော်ဇောလင်းတို့ တက်ရောက်</span>
+                    <span class="published-date">28 JUNE 2023</span>
+                </article>
+                <article class="news-thumbnail">
+                    <img class="news-thumbnail" src="https://news-eleven.com/sites/news-eleven.com/files/styles/frontpage_nodequeue/public/news-images/1_1659.jpg" />
+                    <span class="news-category">NEWS</span>
+                    <span class="news-title">ကမ္ဘာ့သတင်းစာများနှင့် သတင်းထုတ်ဝေသူများအဖွဲ့(WAN-IFRA) ၏ ၇၄ ကြိမ်မြောက် ကမ္ဘာ့ သတင်းမီဒီယာညီလာခံ ထိုင်ဝမ်တွင်ကျင်းပ ■ Eleven Media Group အမှုဆောင်ဒါရိုက်တာ ကိုမင်းသော်ထွဋ် နှင့် The Daily Eleven သတင်းစာ အယ်ဒီတာချုပ် ကိုကျော်ဇောလင်းတို့ တက်ရောက်</span>
+                    <span class="published-date">28 JUNE 2023</span>
+                </article>
             </section>
         </section>
     </section>
