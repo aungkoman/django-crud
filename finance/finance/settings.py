@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "newseleven.apps.NewselevenConfig",
     "familytree.apps.FamilytreeConfig",
     "money.apps.MoneyConfig",
     'django.contrib.admin',
