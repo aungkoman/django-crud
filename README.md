@@ -1,5 +1,20 @@
 # Django CRUD Module
 
+## News Eleven Website 
+
+eleven ဆိုပြီး app တစ်ခု ထည့်မယ်။
+model ထည့်မယ်။
+admin panel မှာ model တွေထည့်မယ်။
+view မှာ template တွေ render ချမယ်။
+template တွေကို သက်ဆိုင်ရာ data object တွေ ထုတ်ပေးမယ်။
+
+
+```bash
+# create new app
+python manage.py startapp newseleven
+```
+
+
 ## Requirement
 
 Browser မှာ /personal-file လို့ ရိုက်ထည့်လိုက်ရင်
