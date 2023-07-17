@@ -7,3 +7,6 @@ finance/finance/__pycache__/settings.cpython-311.pyc
 finance/money/__pycache__/admin.cpython-311.pyc
 finance/money/__pycache__/models.cpython-311.pyc
 finance/finance/__pycache__/settings.cpython-311.pyc
+.DS_Store
+finance/.DS_Store
+finance/familytree/.DS_Store
