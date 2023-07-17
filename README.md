@@ -12,6 +12,10 @@ template တွေကို သက်ဆိုင်ရာ data object တွေ
 ```bash
 # create new app
 python manage.py startapp newseleven
+# make migration
+python manage.py makemigrations newseleven
+# migrate
+python manage.py migrate
 ```
 
 
