@@ -6,4 +6,4 @@ from django.http import HttpResponse
 # index is function name
 def index(request):
     # step 1.3 return content with HttpResponse
-    return HttpResponse("Hello World")
+    return HttpResponse("News Eleven -> index")

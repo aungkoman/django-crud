@@ -10,3 +10,4 @@ finance/finance/__pycache__/settings.cpython-311.pyc
 .DS_Store
 finance/.DS_Store
 finance/familytree/.DS_Store
+*.pyc
