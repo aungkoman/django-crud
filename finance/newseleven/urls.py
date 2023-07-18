@@ -8,4 +8,5 @@ urlpatterns = [
     # second parameter is function name 
     path("", views.index),
     path("home-page/", views.home_page),
+    path("our-new-html-page/", views.our_home_page)
 ]

@@ -7,5 +7,16 @@
 </head>
 <body>
     <h2>News Home Page </h2>
+
+    {{ news_list }}
+
+    {% for news in news_list %}
+        <li>{{ news.title }} {{ news.media.url }}</li>
+        {{ BASE_DIR }} <img src="{{ news.media.url }}" />
+
+        base url {{ BASE_DIR }} <br>
+        media {{ MEDIA_DIR }}
+    {% endfor %}
+
 </body>
 </html>
