@@ -7,3 +7,6 @@ from django.http import HttpResponse
 def index(request):
     # step 1.3 return content with HttpResponse
     return HttpResponse("News Eleven -> index")
+
+def home_page(request):
+    return render(request, 'news_home_page.html')
