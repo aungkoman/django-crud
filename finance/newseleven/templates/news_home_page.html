@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Home Page</title>
+    <style>
+        img{
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
     <h2>News Home Page </h2>
-
-    {{ news_list }}
-
     {% for news in news_list %}
-        <li>{{ news.title }} {{ news.media.url }}</li>
+        <li>{{ news.title }}</li>
         {{ BASE_DIR }} <img src="{{ news.media.url }}" />
-
-        base url {{ BASE_DIR }} <br>
-        media {{ MEDIA_DIR }}
     {% endfor %}
 
 </body>
