@@ -33,3 +33,24 @@ def index(request):
 ```
 
 View ဘက်က ထည့်ပေးလိုက်တဲ့ Dictionary ရဲ့ key တွေကို access လုပ်ချင်ရင် ```{{ }}``` တွန့်ကွင်း (၂)​ခုကြားမှာ ထည့်ရေးရတယ်။
+
+## Loop နဲ့ IF
+
+
+### Loop
+
+```python
+{% for person in person_list %}
+    <li>{{ person.name }}</li>
+{% endfor %}
+```
+
+### If
+
+```python
+{% if condition %}
+    {{ # Code to display if the condition is true # }}
+{% else %}
+    {{ # Code to display if the condition is false # }}
+{% endif %}
+```
